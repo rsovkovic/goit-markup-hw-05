@@ -534,12 +534,13 @@ img {
   border: 1px solid var(--primary-white-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--primary-white-color);
-
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   font-size: 12px;
-
+  background-color: transparent;
   font-weight: 400;
-  line-height: 2; /* 200% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  padding-left: 16px;
 }
 .footer_input::placeholder {
   color: var(--primary-white-color);
@@ -695,7 +696,7 @@ img {
   display: block;
 }
 .modal-form-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-icon {
   position: relative;
